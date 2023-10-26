@@ -1,6 +1,6 @@
 # Taking RPITIT ― Rust's shiny new feature for a test ride ― with type-system lambda calculus.
 
-With the upcoming Rust version 1.75, two important new features will be stabilized. These features
+With the upcoming Rust version `1.75.0`, two important new features will be stabilized. These features
 go by the names *return-position* `impl Trait` *in trait* (RPITIT) and *async fn in trait* (AFIT).
 
 Let me take a moment
