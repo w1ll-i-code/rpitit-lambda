@@ -1,3 +1,6 @@
 /target
-*.html
 *.zip
+
+# html result
+*.html
+!theme.html
