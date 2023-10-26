@@ -1,4 +1,4 @@
-# Taking RPITIT ― Rust's shiny new feature for a test ride ― with type-system lambda calculus.
+# Taking RPITIT ― Rust's shiny new feature ― for a test ride with type-system lambda calculus.
 
 With the upcoming Rust version `1.75.0`, two important new features will be stabilized. These features
 go by the names *return-position* `impl Trait` *in trait* (RPITIT) and *async fn in trait* (AFIT).
@@ -76,7 +76,7 @@ actually is. Lambda Calculus is a model of computation introduced in the 1930s b
 Alonzo Church. It follows a few simple rules:
 
 1) The only thing that exists in the basic calculus are functions.
-2) Each function takes exactly one argument and returns exactly one argument.
+2) Each function takes exactly one value as an argument and returns exactly one value.
 3) In the function body, we can apply functions to other functions, or construct new functions.
 
 The simplest function like this is the identity function: `λ x . x` which is a function that just
