@@ -9,8 +9,9 @@ really is a big step in the Rust ecosystem. While the latter one is certainly th
 `await`-ed by most people, I will today focus on RPITIT, which is also the foundation for AFIT.
 
 I'll provide some code samples, but for the sake of brevity and to not repeat myself, not all of
-the code is explicitly written out. If you want to take a look at the full version, I'll add it at
-the end of the post.
+the code is explicitly written out. If you want to take a look at the full version, I've uploaded
+it to [my GitHub](https://github.com/w1ll-i-code/rpitit-lambda/blob/master/src/main.rs). Since the
+feature is not out right now, it has to be compiled with nightly: `$ cargo +nightly run`
 
 <!-- Explain impl Trait as return type -->
 ## impl Trait in the return type
